@@ -1,0 +1,25 @@
+@media screen and (max-width: 990px) {
+  #top-bar__subnavigation {
+    position: sticky;
+    min-width: none;
+    margin-top: 25% !important;
+    margin-right: 10%;
+    flex-direction: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  #top-bar__subnavigation > #google_translate_element {
+    display: none;
+  }
+  #loginLink {
+    background-color: none;
+  }
+}
+#google_translate_elementDiv {
+  width: 50px;
+  position: absolute;
+  right: 300px;
+  top: -10px;
+  z-index: 9999;
+  /* Ensure it's above other elements */
+}
