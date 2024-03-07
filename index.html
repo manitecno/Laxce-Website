@@ -700,8 +700,17 @@
 				}
 			</style>
 
+			<style>
+				@media screen and (max-width: 500px) {
+					.centered-div {
+						display: block !important;
+						text-align: center;
+					}
+				}
+			</style>
+
 			<div class="grid grid--container">
-				<div style="display: flex; justify-content: center; padding-left: 200px;">
+				<div class="centered-div" style="display: flex; justify-content: center;align-items: center;">
 					<div class="col col--md-5 col--lg-4">
 						<div class="section-heading" data-aos="fade-right">
 							<h5 class="__subtitle">
@@ -711,9 +720,6 @@
 							<h2 class="__title" style="color:rgba(14, 173, 157, 1)">Documentation Download</h2>
 						</div>
 					</div>
-
-					<div class="col hide--md col-MB-40"></div>
-
 					<div class="col col--md-7 col--lg-8">
 						<!-- start documents -->
 						<div class="documents documents--style-1">
